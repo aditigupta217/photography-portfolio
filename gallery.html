@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .gallery-header {
+      text-align: center;
+      margin: 20px;
+    }
+    .instagram__flex {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      padding: 20px;
+    }
+    .instagram__flex img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border: 2px solid #ddd;
+      border-radius: 5px;
+    }
+    .back-btn {
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      text-decoration: none;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .back-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="gallery-header">Photo Gallery</h1>
+  <div class="instagram__flex">
+    <img src="/image-2.jpg" alt="Photo 2">
+    <img src="/image-1.jpg" alt="Photo 1">
+    <img src="/image-3.jpg" alt="Photo 3">
+    <img src="/image-4.jpg" alt="Photo 4">
+    <img src="/image-5.jpg" alt="Photo 5">
+    <img src="/image-8.jpg" alt="Photo 8">
+    <img src="/image-7.jpg" alt="Photo 7">
+    <img src="/image-6.jpg" alt="Photo 6">
+  </div>
+  <a href="index.html" class="back-btn">Back to Main Page</a>
+</body>
+</html>
